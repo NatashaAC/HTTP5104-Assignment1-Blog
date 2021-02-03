@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    box-sizing: inherit;
+}
+
+.pageWrapper {
+    max-width: 1200px;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+img {
+    width: 150px;
+}
