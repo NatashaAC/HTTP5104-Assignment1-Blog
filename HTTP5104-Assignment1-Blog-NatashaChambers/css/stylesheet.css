@@ -8,14 +8,67 @@ html, body {
     box-sizing: inherit;
 }
 
+#home {
+    /* Bakcground image from Adobe Stock By butenkow*/
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    border: 2px dashed #23395b;
+    padding: 25px;
+    margin: 5px;
+}
+
+#teaVar {
+    border: 2px dashed #59c9a5;
+    padding: 25px;
+    margin: 5px;
+}
+
+#favTea {
+    border: 2px dashed #59c9a5;
+    padding: 25px;
+    margin: 5px;
+}
+
+#contact {
+    border: 2px dashed #59c9a5;
+    padding: 25px;
+    margin: 5px;
+}
+
 .pageWrapper {
     max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.teaImg {
+    width: 25%;
+    height: auto;
+}
+
+.favThree {
+    border: 2px dashed #b9e3c6;
+    padding: 20px;
+}
+
+.favTeaImg {
+    width: 50%;
+    height: auto;
+}
+
+.sideBar {
+    border: 2px dashed #d81e5b;
+    padding: 25px;
+    margin: 5px;
 }
 
 table, th, td {
     text-align: center;
     border: 1px solid black;
 }
-img {
-    width: 150px;
+
+footer {
+    border: 2px dashed #23395b;
+    padding: 25px;
+    margin: 5px;
 }
