@@ -1,4 +1,4 @@
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src https://agitated-pike-588770.netlify.app/
+  Content-Security-Policy: default-src agitated-pike-588770.netlify.app
