@@ -7,38 +7,62 @@
 
         <link href="./css/stylesheet.css" rel="stylesheet" type="text/css">
 
+        <script src="./script/script.js"></script>
+
         <title>The Tea on Tea | Blog All About Tea</title>
     </head>
     <body>
-        <div class="pageWrapper">
-            <header id="home">
-                <div>
-                    <h1>The Tea on Tea</h1>
-                    <p>
-                        This blog is all about tea. I go over the different varieties available and describe what there’re made from, 
-                        the distinct colour, flavour, and caffeine level. 
-                        I also, talk about my favourite tea varieties, 
-                        how to prepare them, and the different accessories I use. 
-                    </p>
-                    <p>
-                        There are also website recommendations for teas, cute accessories and a list of my top five favourite teas!
-                    </p>
-                </div>
+        <header id="home">
+            <nav class="headerNav">
+                <a href="#" class="logo"><h2>The Tea on Tea</h2></a>
+                <ul class="navLinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#teaVar">Varieties</a></li>
+                    <li><a href="#favTea">Favourite Tea</a></li>
+                    <li><a href="#comments">Contact</a></li>
+                </ul>
+            </nav>
 
-                <nav>
-                    <h2 class="logo">The Tea on Tea</h2>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#teaVar">Varieties</a></li>
-                        <li><a href="#favTea">Favourite Tea</a></li>
-                        <li><a href="#contact">Contact</a></li>
+            <div class="headerTxtBox">
+                <h1>The Tea Review Starts Now!</h1>
+                <p class="headerPara">
+                    This blog is all about tea. I go over the different varieties available and describe what they’re made from, 
+                    the distinct colour, flavour, and caffeine level. 
+                    I also, talk about my favourite tea varieties, 
+                    how to prepare them, and the different accessories I use. 
+                </p>
+                <p class="headerPara">
+                    There are also website recommendations for teas, cute accessories and a list of my top five favourite teas!
+                </p>
+            </div>
+        </header>
+        <div class="pageWrapper">
+            <aside class="sideBar">
+                <h2 class="sideBarTitle">Delicious Teas to Try and Where to Buy!</h2>
+                <section class="sideBarSect">
+                    <h3 class="sideSubTitle">Tea Recommendations</h3>
+                    <p>After a long day, I enjoy drinking a nice hot cup of tea. Some of my favourites are:</p>
+                    <ol class="favTeaList">
+                        <li>Lavender Honey Matcha</li>
+                        <li>Organic Cinnamon Roobios Chai</li>
+                        <li>Lavender Dream Tea</li>
+                        <li>White Cranberry Bark</li>
+                        <li>Mint Matcha</li>
+                    </ol>
+                </section>
+                <section class="sideBarSect">
+                    <h3 class="sideSubTitle">Websites to Get Teas and Accessories:</h3>
+                    <ul class="webList">
+                        <li><a href="https://www.davidstea.com/ca_en/home/">David's Tea</a></li>
+                        <li><a href="https://www.tbydaniel.com/">T by Daniel</a></li>
+                        <li><a href="https://www.t-kettle.com/">T Kettle</a></li>
                     </ul>
-                </nav>
-            </header>
-            <main>
+                </section>
+            </aside>
+            <main id="main">
                 <section id="teaVar">
-                    <h2>Different Tea Varieties</h2>
-                    <p>
+                    <h2 class="sectionTitle">Different Tea Varieties</h2>
+                    <p class="sectionTxt">
                         There are all kinds of teas from around the world and each has their own unique look, flavour and caffeine level. 
                         Some teas such as black, Pu’erh and green tea have high to medium caffeine levels and are a good replacement for coffee. 
                         While other teas like herbal, rooibos, oolong, mate, and white have low to no caffeine. 
@@ -46,7 +70,7 @@
                     </p>
                     <table class="varTable">
                         <thead>
-                            <tr>
+                            <tr class="tableHeadings">
                                 <th>Name</th>
                                 <th>Image</th>
                                 <th>Taste/Flavour</th>
@@ -131,214 +155,185 @@
                             </tr>
                         </tbody>
                     </table>
-                    <footer>
+                    <footer class="tableFooter">
                         <p class="refTxt">Information referenced from: https://www.artfultea.com/tea-wisdom-1/types-of-tea-a-comprehensive-guide</p>
                     </footer>
                 </section>
     
                 <section id="favTea">
-                    <h2>My Top 3 Favourite Types of Tea</h2>
-                    <p>
+                    <h2 class="sectionTitle">My Top 3 Favourite Types of Tea</h2>
+                    <p class="sectionTxt">
                         My favourite tea varieties are matcha, herbal, and rooibos because they are not as bitter to me as other tea varieties like black and white. 
                         I don’t add any sweetener to my teas and since these types are usually sweet, they are perfect for my taste buds. 
                         I also like the fact that they are versatile, you can have them hot or iced.
                     </p>
     
-                    <div class="favThree">
-                        <h3>Matcha</h3>
+                    <div class="favThree" >
+                        <h3 class="favThreeTitle">Matcha</h3>
                         <figure>
                             <!-- Tea images from Adobe Stock By happy_lark -->
                             <img class="favTeaImg" src="./images/matcha.jpg" alt="Green frothy liquid in a white cup surrounded by bamboo whisk, green powder in a white bowl, wooden spoon with green powder in it and two grean leaves all on a white table.">
                             <figcaption>Matcha tea brewed and in its powder form.</figcaption>
                         </figure>
-                        <p>
+                        <p class="favThreePara">
                             Matcha tea is Green tea leaves, that have been ground into a fine powder. It can have different flavour profiles depending on the quality of the leaves. 
                             Traditional matcha can have a smooth, bright, grassy or creamy flavour, where as non-traditional matcha can be fruity, decadent, floral or even refreshing. 
                             The benefits that are associated with matcha tea are that it is energizing, detoxifying, high in antioxidants, and can boost your metabolism. 
                         </p>
-                        <div>
+                        <div class="favLists">
                             <h4>Tea Accessories I Use</h4>
-                            <ul>
+                            <ul class="accessoryList">
                                 <li>Matcha Spoon</li>
                                 <li>Bamboo Whisk</li>
                                 <li>Matcha Bowl</li>
                                 <li>Matcha Maker (type of travel mug)</li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="favLists">
                             <h4>Traditional Way of Preparing Matcha</h4>
-                            <ol>
-                                <li>I use my matcha spoon to add 2 scoops of traditional matcha powder or 5-6 scoops of flavoured matcha into a my matcha bowl.</li>
-                                <li>Then I add 60ml or 2oz of hot water and whisk in an M formation until frothy.</li>
-                                <li>After that I pour the whisked matcha into my favourite mug and top off with more hot water.</li>
+                            <ol class="prepList">
+                                <li>I use my matcha spoon to add <strong>2 scoops of traditional matcha powder </strong> or <strong>5-6 scoops of flavoured matcha</strong> into a my matcha bowl.</li>
+                                <li>Then I add <strong>60ml or 2oz of hot water</strong> and whisk in an M formation until frothy.</li>
+                                <li>After that I pour the whisked matcha into my favourite mug and <em>top off with more hot water</em>.</li>
                                 <li>Ready to sip and enjoy while I watch my favourite show.</li>
                             </ol>
                         </div>
-                        <div>
+                        <div class="favLists">
                             <h4>How I Prepare Matcha</h4>
-                            <ol>
-                                <li>I use my matcha spoon to add 2 scoops of traditional matcha powder or 5-6 scoops of flavoured matcha into a my matcha maker</li>
-                                <li>Then I add hot water into matcha maker up to the line marked at the side</li>
-                                <li>Shake for 30 seconds, or until I see the matcha start to froth. Then I press the button on top of the maker to release the pressure</li>
+                            <ol class="prepList">
+                                <li>I use my matcha spoon to add <strong>2 scoops of traditional matcha powder </strong> or <strong>5-6 scoops of flavoured matcha</strong> into a my matcha maker.</li>
+                                <li>Then I add hot water into matcha maker up to the line marked at the side.</li>
+                                <li><strong>Shake for 30 seconds</strong>, or until I see the matcha start to froth. Then I press the button on top of the maker to <em>release the pressure</em>>.</li>
                                 <li>All done and ready to drink!</li>
                             </ol>
                         </div>
                     </div>
                     <div class="favThree">
-                        <h3>Herbal</h3>
+                        <h3 class="favThreeTitle">Herbal</h3>
                         <figure>
                             <!-- Tea images from Adobe Stock By Maria Medvedeva -->
                             <img class="favTeaImg" src="./images/herbal_tea2.jpg" alt="Deep red liquid in a clear cup surrounded by dried red leaves covering a wooden spoon, all on a white table.">
                             <figcaption>Hibiscus herbal tea brewed and in its tea form.</figcaption>
                         </figure>
-                        <p>
+                        <p class="favThreePara">
                             Herbal tea is a mixture of spices, herbs, fruits or nuts. It has many different flavour profiles, 
                             which can be minty, sweet, floral, fruity, spicy or a combination of each. 
                             The benefit associated with herbal tea is that it has medicinal properties. 
                             The properties are soothing colds, stress reducing, relaxation boosting, hydrating and it can help with digestion.
                         </p>
-                        <div>
+                        <div class="favLists">
                             <h4>Tea Accessories I Use</h4>
-                            <ul>
+                            <ul class="accessoryList">
                                 <li>Perfect Spoon</li>
                                 <li>Travel Mug with Steeper Attachment</li>
                                 <li>Mug with Lid and Removable Steeper</li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="favLists">
                             <h4>How I Prepare Loose Leaf Tea</h4>
-                            <ol>
-                                <li>I use my perfect spoon to add 1-2 scoops of loose leaf tea into my steeper attachment</li>
-                                <li>After that I put my steeper into my mug and pour in 250ml of hot water, and cover it.</li>
-                                <li>Then I let it steep for 5-7 minutes</li>
+                            <ol class="prepList">
+                                <li>I use my perfect spoon to add <strong>1-2 scoops of loose leaf tea</strong> into my steeper attachment.</li>
+                                <li>After that I put my steeper into my mug and pour in <strong>250ml of hot water</strong>, and <em>cover it</em>.</li>
+                                <li>Then I let it <strong>steep for 5-7 minutes</strong>.</li>
                                 <li>All ready for me to enjoy!</li>
                             </ol>
                         </div>
-                        <div>
+                        <div class="favLists">
                             <h4>How I Prepare Tea Bags</h4>
-                            <ol>
-                                <li>I put 1-2 tea bags into my mug</li>
-                                <li>Then I add 250ml of hot water to my mug and cover it</li>
-                                <li>After that I let it steep for 5-7 minutes</li>
+                            <ol class="prepList">
+                                <li>I put <strong>1-2 tea bags</strong> into my mug.</li>
+                                <li>Then I add <strong>250ml of hot water</strong> to my mug and cover it.</li>
+                                <li>After that I let it <strong>steep for 5-7 minutes</strong>.</li>
                                 <li>I usually keep my tea bags in my mug because I like my tea strong, but you could discard them into the compost them.</li>
                             </ol>
                         </div>
                     </div>
                     <div class="favThree"> 
-                        <h3>Roobios</h3>
+                        <h3 class="favThreeTitle">Roobios</h3>
                         <figure>
                             <!-- Tea images from Adobe Stock By GreenArt -->
                             <img class="favTeaImg" src="./images/roobios_tea2.jpg" alt="Light red liquid in a clear cup and teapot surrounded by shredded cherry brown bark on a cream colour table.">
                             <figcaption>Roobios tea brewed and in its tea form.</figcaption>
                         </figure>
-                        <p>
+                        <p class="favThreePara">
                             Rooibos tea is a plant from South Africa, there are two types: red and green. 
                             It is naturally sweet, so you don’t need any sugar, honey, etc. 
                             The benefits associated are that it is high in antioxidants, electrolytes, and hydrating.
                         </p>
-                        <div>
+                        <div class="favLists">
                             <h4>Tea Accessories I Use</h4>
-                            <ul>
+                            <ul class="accessoryList">
                                 <li>Perfect Spoon</li>
                                 <li>Travel Mug with Steeper Attachment</li>
                                 <li>Mug with Lid and Removable Steeper</li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="favLists">
                             <h4>How I Prepare Loose Leaf Tea</h4>
-                            <ol>
-                                <li>I use my perfect spoon to add 1-2 scoops of loose leaf tea into my steeper attachment</li>
-                                <li>After that I put my steeper into my mug and pour in 250ml of hot water, and cover it.</li>
-                                <li>Then I let it steep for 5-7 minutes</li>
+                            <ol class="prepList">
+                                <li>I use my perfect spoon to add <strong>1-2 scoops of loose leaf</strong> tea into my steeper attachment.</li>
+                                <li>After that I put my steeper into my mug and pour in <strong>250ml of hot water</strong>, and <em>cover it</em>.</li>
+                                <li>Then I let it <strong>steep for 5-7 minutes</strong>.</li>
                                 <li>All ready for me to enjoy!</li>
                             </ol>
                         </div>
-                        <div>
+                        <div class="favLists">
                             <h4>How I Prepare Tea Bags</h4>
-                            <ol>
-                                <li>I put 1-2 tea bags into my mug</li>
-                                <li>Then I add 250ml of hot water to my mug and cover it</li>
-                                <li>After that I let it steep for 5-7 minutes</li>
+                            <ol class="prepList">
+                                <li>I put <strong>1-2 tea bags</strong> into my mug.</li>
+                                <li>Then I add <strong>250ml of hot water</strong> to my mug and cover it.</li>
+                                <li>After that I let it <strong>steep for 5-7 minutes</strong>.</li>
                                 <li>I usually keep my tea bags in my mug because I like my tea strong, but you could discard them into the compost them.</li>
                             </ol>
                         </div>
                     </div>
                 </section>
     
-                <section id="contact">
-                    <h2>Tell me What You Think!</h2>
-                    <form>
-                        <div>
+                <section id="comments">
+                    <h2 class="commentTitle">Tell me What You Think!</h2>
+                    <form action="#" method="POST">
+                        <div class="formInput">
                             <label for="firstName">First Name:</label>
                             <input type="text" id="firstName" name="firstname" required>
                         </div>
     
-                        <div>
+                        <div class="formInput">
                             <label for="lastName">Last Name:</label>
                             <input type="text" id="lastName" name="lastname" required>
                         </div>
     
-                        <div>
-                            <p>How much tea do you drink?</p>
+                        <fieldset>
+                            <legend>How often do you drink tea?</legend>
                             
-                            <div>
-                                <input type="radio" id="coffeeDrinker" name="coffeeDrinker" value="coffee drinker" checked>
+                            <div class="teaOpts">
+                                <input type="radio" id="coffeeDrinker" name="drinkLevel" value="coffeeDrinker" checked>
                                 <label for="coffeeDrinker">Coffee Drinker</label>
-                            </div>
-    
-                            <div>
-                                <input type="radio" id="occasional" name="occasional" value="occasionally">
+
+                                <input type="radio" id="occasional" name="drinkLevel" value="occasional">
                                 <label for="occasional">Occasionally</label>
-                            </div>
-    
-                            <div>
-                                <input type="radio" id="often" name="often" value="often">
-                                <label for="often">Often</label>
-                            </div>
-    
-                            <div>
-                                <input type="radio" id="allTime" name="allTime" value="all time">
+                        
+                                <input type="radio" id="frequently" name="drinkLevel" value="frequently">
+                                <label for="frequently">Frequently</label>
+                            
+                                <input type="radio" id="allTime" name="drinkLevel" value="allTime">
                                 <label for="allTime">All the Time</label>
-                            </div>
-    
-                            <div>
-                                <input type="radio" id="never" name="never" value="never">
+                           
+                                <input type="radio" id="never" name="drinkLevel" value="never">
                                 <label for="never">Never</label>
                             </div>
-    
                             <div>
-                                <label for="msg">Comments</label>
-                                <textarea id="msg" name="msg" rows="5" cols="25">Leave a comment...</textarea>
+                                <label for="mssg">Comment:</label>
                             </div>
-                        </div>
+                                <textarea id="mssg" name="mssg" rows="5" cols="40" placeholder="Leave a comment..."></textarea>
+                        </fieldset>
+
+                        <button type="submit">submit</button>
                     </form>
                 </section>
             </main>
-            <aside class="sideBar">
-                <h3>Delicious Teas to Try and Where to Buy!</h3>
-                <section>
-                    <h4>Tea Recommendations</h4>
-                    <p>After a long day, I enjoy drinking a nice hot cup of tea. Some of my favourites are:</p>
-                    <ol>
-                        <li>Lavender Honey Matcha</li>
-                        <li>Organic Cinnamon Roobios Chai</li>
-                        <li>Lavender Dream Tea</li>
-                        <li>White Cranberry Bark</li>
-                        <li>Mint Matcha</li>
-                    </ol>
-                </section>
-                <section>
-                    <h4>Websites to Get Teas and Accessories:</h4>
-                    <ul>
-                        <li>David's Tea</li>
-                        <li>T by Daniel</li>
-                        <li>T Kettle</li>
-                    </ul>
-                </section>
-            </aside>
-            <footer>
-                <p>&copy; 2021</p>
-            </footer>
         </div>
+        <footer>
+            <p>&copy; 2021</p>
+        </footer>
     </body>
 </html>
